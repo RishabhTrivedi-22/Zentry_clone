@@ -52,32 +52,48 @@ const Features = () => {
 
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
           <div className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
-            <BentoCard 
-              src='videos/feature-2.mp4'
-              title={<>Zig<b>m</b>a</>}
-              description='An anime and gaming-inspired NFT collection - the IP primed for expansion.'
+            <BentoCard
+              src="videos/feature-2.mp4"
+              title={
+                <>
+                  Zig<b>m</b>a
+                </>
+              }
+              description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
             />
           </div>
 
           <div className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
-          <BentoCard 
-              src='videos/feature-3.mp4'
-              title={<>N<b>e</b>xus</>}
-              description='A gamified social hub, adding a new dimension of play to your identity, Web3 engagement and social interaction.'
+            <BentoCard
+              src="videos/feature-3.mp4"
+              title={
+                <>
+                  N<b>e</b>xus
+                </>
+              }
+              description="A gamified social hub, adding a new dimension of play to your identity, Web3 engagement and social interaction."
             />
           </div>
           <div className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
-          <BentoCard 
-              src='videos/feature-4.mp4'
-              title={<>az<b>u</b>l</>}
-              description='A cross-world AI Agent - elevating your gameplay to be more fun and productive. '
+            <BentoCard
+              src="videos/feature-4.mp4"
+              title={
+                <>
+                  az<b>u</b>l
+                </>
+              }
+              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive. "
             />
           </div>
 
           <div className="bento-tilt_2">
             <div className="relative flex size-full flex-col justify-between bg-violet-300 p-5">
-              <h1 className="bento-title special-font text-black max-w-64">M<b>o</b>re<br/> C<b>om</b>ing <br/>Soon </h1>
-              <TiLocationArrow className="m-5 scale-[5] self-end"/>
+              <h1 className="bento-title special-font text-black max-w-64">
+                M<b>o</b>re
+                <br /> C<b>om</b>ing <br />
+                Soon{" "}
+              </h1>
+              <TiLocationArrow className="m-5 scale-[5] self-end" />
               {/* 
               <img 
                 src="img/zentry-logo.png"
@@ -95,9 +111,7 @@ const Features = () => {
               className="size-full object-cover object-center"
             />
           </div>
-
         </div>
-
       </div>
     </section>
   );
